@@ -7,6 +7,7 @@ import android.support.v4.content.LocalBroadcastManager;
 import android.util.Log;
 
 import com.example.android.restful.model.DataItem;
+
 import com.example.android.restful.utils.HttpHelper;
 import com.google.gson.Gson;
 
@@ -17,7 +18,7 @@ public class MyService extends IntentService {
     public static final String TAG = "MyService";
     public static final String MY_SERVICE_MESSAGE = "myServiceMessage";
     public static final String MY_SERVICE_PAYLOAD = "myServicePayload";
-    public static final String MY_SERVICE_EXCEPTION = "myServicePayload";
+    public static final String MY_SERVICE_EXCEPTION = "myServiceException";
 
     public MyService() {
         super("MyService");
@@ -30,18 +31,20 @@ public class MyService extends IntentService {
 
         String response;
         try {
-            response = HttpHelper.downloadUrl(uri.toString());
+            response = HttpHelper.downloadUrl(uri.toString(), "nadias", "NadiasPassword");
         } catch (IOException e) {
             e.printStackTrace();
             Intent messageIntent = new Intent(MY_SERVICE_MESSAGE);
-            messageIntent.putExtra(MY_SERVICE_EXCEPTION,e.getMessage());
-            LocalBroadcastManager manager =  LocalBroadcastManager.getInstance(getApplicationContext());
+            messageIntent.putExtra(MY_SERVICE_EXCEPTION, e.getMessage());
+            LocalBroadcastManager manager =
+                    LocalBroadcastManager.getInstance(getApplicationContext());
             manager.sendBroadcast(messageIntent);
             return;
-
         }
+
         Gson gson = new Gson();
-        DataItem[] dataItems= gson.fromJson(response, DataItem[].class);
+      DataItem[] dataItems = gson.fromJson(response, DataItem[].class);
+
 
         Intent messageIntent = new Intent(MY_SERVICE_MESSAGE);
         messageIntent.putExtra(MY_SERVICE_PAYLOAD, dataItems);

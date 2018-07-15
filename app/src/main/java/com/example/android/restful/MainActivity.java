@@ -16,10 +16,14 @@ import com.example.android.restful.model.DataItem;
 import com.example.android.restful.services.MyService;
 import com.example.android.restful.utils.NetworkHelper;
 
+import static android.R.id.message;
+
 public class MainActivity extends AppCompatActivity {
 
     private static final String JSON_URL =
-            "http://560057.youcanlearnit.net/services/json/itemsfeed.php";
+            "http://560057.youcanlearnit.net/secured/json/itemsfeed.php";
+    private static final String XML_URL =
+            "http://560057.youcanlearnit.net/secured/xml/itemsfeed.php";
 
     private boolean networkOk;
     TextView output;
@@ -28,23 +32,16 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void onReceive(Context context, Intent intent) {
             if (intent.hasExtra(MyService.MY_SERVICE_PAYLOAD)) {
-                DataItem[] dataitems = (DataItem[]) intent.getParcelableArrayExtra(MyService.MY_SERVICE_PAYLOAD);
-                for (DataItem item : dataitems) {
-
+                DataItem[] dataItems = (DataItem[]) intent
+                        .getParcelableArrayExtra(MyService.MY_SERVICE_PAYLOAD);
+                for (DataItem item : dataItems) {
                     output.append(item.getItemName() + "\n");
                 }
+            } else if (intent.hasExtra(MyService.MY_SERVICE_EXCEPTION)){
+                String message = intent.getStringExtra(MyService.MY_SERVICE_EXCEPTION);
+                Toast.makeText(context, message, Toast.LENGTH_SHORT).show();
             }
-             else if (intent.hasExtra(MyService.MY_SERVICE_EXCEPTION)) {
-
-                    String message = intent.getStringExtra(MyService.MY_SERVICE_EXCEPTION);
-                    Toast.makeText(context, "" + message, Toast.LENGTH_SHORT).show();
-                }
-
-
-
         }
-
-
     };
 
     @Override
