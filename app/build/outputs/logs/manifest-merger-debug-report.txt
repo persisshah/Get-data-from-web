@@ -1,0 +1,110 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Android Projects\HttpURLConnection\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from D:\Android Projects\HttpURLConnection\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from D:\Android Projects\HttpURLConnection\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from D:\Android Projects\HttpURLConnection\app\src\main\AndroidManifest.xml:2:1-27:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Persis\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\5666fad8eca8a8d0f529e72cacf8773f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Persis\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\09fe8072ed78ff589b5be407729c5ded\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Persis\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\f109cb6c09d795975c7a4b3dfc9228d1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Persis\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\72b088cb361f7e775239a627c6387eb6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Persis\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\eab426f09e4e9fa7809f051b0be09ee1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Persis\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\70fb75426d71a73ca8996eeb24cce80f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Persis\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\47ab1bfd450281ccf9682edd6bc72564\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Persis\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\628c0d2d9d4eaacf60a9b9dab0d56b03\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Persis\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\77223ea4817793ee24f1df577ef4bb00\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Persis\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\ec1d29c90bed6f7d8cf43d657b77e8a3\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Persis\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\e8dd0c9a1aaace06bff0f9c364312f57\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\Android Projects\HttpURLConnection\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from D:\Android Projects\HttpURLConnection\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from D:\Android Projects\HttpURLConnection\app\src\main\AndroidManifest.xml:2:1-27:12
+	package
+		ADDED from D:\Android Projects\HttpURLConnection\app\src\main\AndroidManifest.xml:3:5-42
+		INJECTED from D:\Android Projects\HttpURLConnection\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android Projects\HttpURLConnection\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\Android Projects\HttpURLConnection\app\src\main\AndroidManifest.xml
+		ADDED from D:\Android Projects\HttpURLConnection\app\src\main\AndroidManifest.xml:2:1-27:12
+		INJECTED from D:\Android Projects\HttpURLConnection\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\Android Projects\HttpURLConnection\app\src\main\AndroidManifest.xml
+		ADDED from D:\Android Projects\HttpURLConnection\app\src\main\AndroidManifest.xml:2:1-27:12
+		INJECTED from D:\Android Projects\HttpURLConnection\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Android Projects\HttpURLConnection\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\Android Projects\HttpURLConnection\app\src\main\AndroidManifest.xml:5:5-79
+	android:name
+		ADDED from D:\Android Projects\HttpURLConnection\app\src\main\AndroidManifest.xml:5:22-76
+uses-permission#android.permission.INTERNET
+ADDED from D:\Android Projects\HttpURLConnection\app\src\main\AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from D:\Android Projects\HttpURLConnection\app\src\main\AndroidManifest.xml:6:22-64
+application
+ADDED from D:\Android Projects\HttpURLConnection\app\src\main\AndroidManifest.xml:8:5-25:19
+	android:supportsRtl
+		ADDED from D:\Android Projects\HttpURLConnection\app\src\main\AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from D:\Android Projects\HttpURLConnection\app\src\main\AndroidManifest.xml:11:9-41
+	android:icon
+		ADDED from D:\Android Projects\HttpURLConnection\app\src\main\AndroidManifest.xml:10:9-43
+	android:allowBackup
+		ADDED from D:\Android Projects\HttpURLConnection\app\src\main\AndroidManifest.xml:9:9-35
+	android:theme
+		ADDED from D:\Android Projects\HttpURLConnection\app\src\main\AndroidManifest.xml:13:9-40
+activity#com.example.android.restful.MainActivity
+ADDED from D:\Android Projects\HttpURLConnection\app\src\main\AndroidManifest.xml:14:9-20:20
+	android:name
+		ADDED from D:\Android Projects\HttpURLConnection\app\src\main\AndroidManifest.xml:14:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\Android Projects\HttpURLConnection\app\src\main\AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from D:\Android Projects\HttpURLConnection\app\src\main\AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from D:\Android Projects\HttpURLConnection\app\src\main\AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Android Projects\HttpURLConnection\app\src\main\AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from D:\Android Projects\HttpURLConnection\app\src\main\AndroidManifest.xml:18:27-74
+service#com.example.android.restful.services.MyService
+ADDED from D:\Android Projects\HttpURLConnection\app\src\main\AndroidManifest.xml:22:9-24:40
+	android:exported
+		ADDED from D:\Android Projects\HttpURLConnection\app\src\main\AndroidManifest.xml:24:13-37
+	android:name
+		ADDED from D:\Android Projects\HttpURLConnection\app\src\main\AndroidManifest.xml:23:13-47
+uses-sdk
+INJECTED from D:\Android Projects\HttpURLConnection\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Android Projects\HttpURLConnection\app\src\main\AndroidManifest.xml
+INJECTED from D:\Android Projects\HttpURLConnection\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Persis\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\5666fad8eca8a8d0f529e72cacf8773f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Persis\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\5666fad8eca8a8d0f529e72cacf8773f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Persis\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\09fe8072ed78ff589b5be407729c5ded\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Persis\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\09fe8072ed78ff589b5be407729c5ded\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Persis\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\f109cb6c09d795975c7a4b3dfc9228d1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Persis\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\f109cb6c09d795975c7a4b3dfc9228d1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Persis\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\72b088cb361f7e775239a627c6387eb6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Persis\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\72b088cb361f7e775239a627c6387eb6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Persis\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\eab426f09e4e9fa7809f051b0be09ee1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Persis\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\eab426f09e4e9fa7809f051b0be09ee1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Persis\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\70fb75426d71a73ca8996eeb24cce80f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Persis\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\70fb75426d71a73ca8996eeb24cce80f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Persis\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\47ab1bfd450281ccf9682edd6bc72564\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Persis\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\47ab1bfd450281ccf9682edd6bc72564\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Persis\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\628c0d2d9d4eaacf60a9b9dab0d56b03\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Persis\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\628c0d2d9d4eaacf60a9b9dab0d56b03\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Persis\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\77223ea4817793ee24f1df577ef4bb00\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Persis\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\77223ea4817793ee24f1df577ef4bb00\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Persis\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\ec1d29c90bed6f7d8cf43d657b77e8a3\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Persis\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\ec1d29c90bed6f7d8cf43d657b77e8a3\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Persis\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\e8dd0c9a1aaace06bff0f9c364312f57\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Persis\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\e8dd0c9a1aaace06bff0f9c364312f57\AndroidManifest.xml:20:5-44
+INJECTED from D:\Android Projects\HttpURLConnection\app\src\main\AndroidManifest.xml
+INJECTED from D:\Android Projects\HttpURLConnection\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\Android Projects\HttpURLConnection\app\src\main\AndroidManifest.xml
+		ADDED from D:\Android Projects\HttpURLConnection\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android Projects\HttpURLConnection\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Android Projects\HttpURLConnection\app\src\main\AndroidManifest.xml
+		ADDED from D:\Android Projects\HttpURLConnection\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android Projects\HttpURLConnection\app\src\main\AndroidManifest.xml
